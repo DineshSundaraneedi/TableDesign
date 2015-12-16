@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, max-scale=2">
+    <title> TableDesign </title>
+</head>
+
+<body>
+    <table width=100% border="1" cellpadding="10">
+        <thead bgcolor="#ff0000">
+            <tr>
+                <td colspan="4">
+                    <center>
+                        <img src="main.png">
+                    </center>
+                </td>
+            </tr>
+        </thead>
+        <tbody bgcolor="#ff9900">
+            <tr>
+                <td rowspan="2">
+                    <img src="pic3.jpg" width=150px height=150px>
+                </td>
+                <td colspan="2" rowspan="3">
+                    <form action="tabler.html" target="_blank" autocomplete="on">
+                        <table width=100% cellpadding="10">
+                            <tr>
+                                <td colspan="6" align="center"><b>Registration Form</b> </td>
+                            </tr>
+                            <tr>
+                                <td>Firstname:</td>
+                                <td>
+                                    <input type="text" placeholder="first name" name="firstname" autofocus required>
+                                </td>
+                                <td>Middlename:</td>
+                                <td>
+                                    <input type="text" placeholder="middlename" name="middlename" required>
+                                </td>
+                                <td>Lastname:</td>
+                                <td>
+                                    <input type="text" placeholder="last name" name="lastname" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sex:</td>
+                                <td>
+                                    <input type="radio" name="sex" value="male">Male
+                                </td>
+                                <td>
+                                    <input type="radio" name="sex" value="female">Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Age:</td>
+                                <td>
+                                    <input type="number" step="1" max="50" min="15">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DOB:</td>
+                                <td>
+                                    <input type="date">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email id:</td>
+                                <td>
+                                    <input type="text" placeholder="Enter valid email address" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Alternative mail id:</td>
+                                <td>
+                                    <input type="email" placeholder="Enter valid email address" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Address:</td>
+                                <td colspan="5">
+                                    <textarea rows="3" cols="30" placeholder="address" required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>City:</td>
+                                <td>
+                                    <input list="city">
+                                    <datalist id="city">
+                                        <option value="Hyderabad">
+                                            <option value="bangalore">
+                                                <option value="pune">
+                                                    <option value="chennai">
+                                                        <option value="others">
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>State:</td>
+                                <td>
+                                    <input list="state" name="state">
+                                    <datalist id="state">
+                                        <option value="AndhraPradesh">
+                                            <option value="TamilNadu">
+                                                <option value="Karnataka">
+                                                    <option value="Kerala">
+                                                        <option value="Maharastra">
+                                                            <option value="others">
+                                    </datalist>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <center>
+                                        <input type="submit" value="submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+                <td>
+                    <video width="250" height="150" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <img src="pic3.jpg"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"> <img src="pic1.jpg" width=200px height=150px>
+                    <br>
+                    <img src="pic1.jpg" width=200px height=150px>
+                </td>
+                <td colspan="2"><img src="pic2.jpg" width=200px height=150px></td>
+            </tr>
+            <tr>
+                <td>
+                    <left><b><u>Contact us:</u><br/>www.innommnds.com<br/> Hyd office:<br/> +91-040-1658495 </b></left>
+                </td>
+                <td>
+                    <br/>
+                    <br/>
+                    <left><b>Bangalore office:<br/>+91-080-1658495</b></left>
+                </td>
+                <td><img src="pic5.jpg" width=200px height=150px></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <center><img src="img.jpg" width=50px height=50px>
+                        <a href="http://www.tsrtconline.in/oprs-web/"> Go to isrtc online ticket booking site </a>
+                    </center>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
